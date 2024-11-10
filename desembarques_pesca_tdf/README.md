@@ -174,6 +174,3 @@ Si tienes preguntas o sugerencias, no dudes en contactarme:
 - **LinkedIn**: www.linkedin.com/in/gaston-schvartz
 
 
----
-
-¡Espero que esta estructura para tu `README.md` sea útil y te ayude a documentar tu proyecto de manera profesional! 🚀
