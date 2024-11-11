@@ -1,3 +1,4 @@
+# ![Predicción de Desembarques Pesqueros en Tierra del Fuego](banner.png)
 
 
 # **Predicción de Desembarques Pesqueros en Tierra del Fuego**
@@ -199,8 +200,9 @@ Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo [LICENS
 
 Si tienes preguntas o sugerencias, no dudes en contactarme:
 
-- **Correo**: schvartz.g@gmail.cm
-- **LinkedIn**: www.linkedin.com/in/gaston-schvartz
+- **Correo electrónico**: schvartz.g@gmail.com
+- **LinkedIn**: [Gastón Schvartz](https://www.linkedin.com/in/gaston-schvartz)
+```
 
 # ![Predicción de Desembarques Pesqueros en Tierra del Fuego](banner.png)
 
