@@ -1,3 +1,4 @@
+# ![Predicción de Desembarques Pesqueros en Tierra del Fuego](banner.png)
 
 
 # **Predicción de Desembarques Pesqueros en Tierra del Fuego**
@@ -9,14 +10,18 @@
 ## **Descripción del Proyecto**
 
 La provincia de **Tierra del Fuego**, ubicada en el extremo austral de Argentina, cuenta con una vasta riqueza en recursos pesqueros. Este proyecto tiene como objetivo predecir los **desembarques pesqueros** utilizando técnicas avanzadas de **Aprendizaje Automático**. Al construir un modelo predictivo, buscamos optimizar la gestión de recursos y mejorar la planificación en la industria pesquera de la región.
-
+---
+### [Link al Abstract](https://docs.google.com/document/d/1djYLsz_7QdH9Hj7PbO7dA0cEx-nZw---czXJBFiOESE/edit?usp=drive_link)
+---
+### [Link al Video](https://drive.google.com/file/d/1POBxGKvTlkDVmDS4u_RdNvqO6tzNtB2Y/view?usp=drive_link)
+---
 ### **Motivación del Proyecto**
 - **Optimización** de la gestión de recursos pesqueros.
 - **Identificación** de patrones estacionales y tendencias en los desembarques.
 - **Mejora** en la toma de decisiones para políticas pesqueras sostenibles.
 
 ## **Estructura del Proyecto**
-
+[Acceder al proyecto en GitHub](https://github.com/Zayitus/pesca_ok/tree/master/desembarques_pesca_tdf)
 ```
 ├── LICENSE            <- Licencia de uso del proyecto (open-source)
 ├── Makefile           <- Comandos de conveniencia como `make data` o `make train`
@@ -118,28 +123,53 @@ python prediccion_desembarques/modeling/predict.py
 
 ## **Datos**
 
-Los datos utilizados en este proyecto provienen del **Instituto Provincial de Análisis e Investigación, Estadística y Censos (IPIEC)** de Tierra del Fuego. Los datos cubren un periodo desde **1990 hasta 2024**, con información mensual sobre los desembarques pesqueros en los puertos de **Ushuaia y Almanza**.
-
-### **Descripción de las Variables**
-
-- **Año**: Año del registro.
-- **Mes**: Mes del registro.
-- **Total_Desembarques**: Volumen total de desembarques (toneladas).
-- **Ushuaia**: Desembarques en el puerto de Ushuaia.
-- **Almanza**: Desembarques en el puerto de Almanza.
+Los datos utilizados en este proyecto provienen del [Instituto Provincial de Análisis e Investigación, Estadística y Censos (IPIEC)](https://ipiec.tierradelfuego.gob.ar/) de Tierra del Fuego. Los datos cubren un periodo desde **1990 hasta 2024**, con información mensual sobre los desembarques pesqueros en los puertos de **Ushuaia y Almanza**.
 
 ## **Resultados del Modelo**
 
-El modelo entrenado con **XGBoost Regressor** mostró los siguientes resultados:
-
+### Modelo Original (XGBoost)
 - **R² Score**: 0.80
 - **Root Mean Squared Error (RMSE)**: 1228.92
 - **Validación Cruzada (R² promedio)**: 0.75
 
-### **Análisis de Resultados**
+### Modelo Mejorado (XGBoost Optimizado)
+- **R² Score**: 0.94
+- **Root Mean Squared Error (RMSE)**: 685.86
+- **Mean Absolute Error (MAE)**: 573.69
+- **Mejora porcentual:**
+  - Reducción del RMSE: 48.6%
+  - Mejora del R²: 23.7%
 
-- El modelo logró capturar tendencias generales y estacionalidades en los desembarques.
-- Sin embargo, algunos picos en los residuos sugieren que hay factores externos no capturados por el modelo actual.
+### Características del Modelo Mejorado
+1. **Características Temporales**
+   - Transformaciones cíclicas (mes_sin, mes_cos)
+   - Variables de rezago (lag_1 a lag_12)
+   - Diferencias temporales (diff_1, diff_12)
+
+2. **Estadísticas Móviles**
+   - Media móvil (moving_avg_3)
+   - Desviación estándar móvil (moving_std_3)
+   - Máximos y mínimos móviles
+
+3. **Hiperparámetros Optimizados**
+   ```python
+   {
+       'n_estimators': 500,
+       'learning_rate': 0.05,
+       'max_depth': 5,
+       'min_child_weight': 7,
+       'subsample': 0.6,
+       'colsample_bytree': 0.7,
+       'gamma': 0.1
+   }
+   ```
+
+4. **Características más Importantes**
+   - diff_1 (20.63%): Cambios mensuales
+   - moving_min_3 (13.58%): Mínimos recientes
+   - moving_avg_3 (11.41%): Tendencia reciente
+   - mes_12 (10.67%): Efecto diciembre
+   - diff_12 (10%): Cambios anuales
 
 ## **Gráficos Importantes**
 
@@ -170,7 +200,7 @@ Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo [LICENS
 
 Si tienes preguntas o sugerencias, no dudes en contactarme:
 
-- **Correo**: schvartz.g@gmail.cm
-- **LinkedIn**: www.linkedin.com/in/gaston-schvartz
+- **Correo electrónico**: schvartz.g@gmail.com
+- **LinkedIn**: [Gastón Schvartz](https://www.linkedin.com/in/gaston-schvartz)
 
 
