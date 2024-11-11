@@ -21,7 +21,7 @@ La provincia de **Tierra del Fuego**, ubicada en el extremo austral de Argentina
 - **Mejora** en la toma de decisiones para políticas pesqueras sostenibles.
 
 ## **Estructura del Proyecto**
-Entrar a https://github.com/Zayitus/pesca_ok/tree/master/desembarques_pesca_tdf para acceder al proyecto
+[Acceder al proyecto en GitHub](https://github.com/Zayitus/pesca_ok/tree/master/desembarques_pesca_tdf)
 ```
 ├── LICENSE            <- Licencia de uso del proyecto (open-source)
 ├── Makefile           <- Comandos de conveniencia como `make data` o `make train`
