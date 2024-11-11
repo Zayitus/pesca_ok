@@ -202,8 +202,8 @@ Si tienes preguntas o sugerencias, no dudes en contactarme:
 
 - **Correo electrónico**: schvartz.g@gmail.com
 - **LinkedIn**: [Gastón Schvartz](https://www.linkedin.com/in/gaston-schvartz)
-```
-
+### [Link al Abstract](https://docs.google.com/document/d/1djYLsz_7QdH9Hj7PbO7dA0cEx-nZw---czXJBFiOESE/edit?usp=drive_link)```
+### [Link al Video](https://drive.google.com/file/d/1POBxGKvTlkDVmDS4u_RdNvqO6tzNtB2Y/view?usp=drive_link)
 # ![Predicción de Desembarques Pesqueros en Tierra del Fuego](banner.png)
 
 # **Predicción de Desembarques Pesqueros en Tierra del Fuego**
