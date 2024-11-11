@@ -11,9 +11,9 @@
 
 La provincia de **Tierra del Fuego**, ubicada en el extremo austral de Argentina, cuenta con una vasta riqueza en recursos pesqueros. Este proyecto tiene como objetivo predecir los **desembarques pesqueros** utilizando técnicas avanzadas de **Aprendizaje Automático**. Al construir un modelo predictivo, buscamos optimizar la gestión de recursos y mejorar la planificación en la industria pesquera de la región.
 ---
-### *Link al Abstract https://docs.google.com/document/d/1djYLsz_7QdH9Hj7PbO7dA0cEx-nZw---czXJBFiOESE/edit?usp=drive_link*
+### [Link al Abstract](https://docs.google.com/document/d/1djYLsz_7QdH9Hj7PbO7dA0cEx-nZw---czXJBFiOESE/edit?usp=drive_link)
 ---
-### *Link al video https://drive.google.com/file/d/1POBxGKvTlkDVmDS4u_RdNvqO6tzNtB2Y/view?usp=drive_link*
+### [Link al Video](https://drive.google.com/file/d/1POBxGKvTlkDVmDS4u_RdNvqO6tzNtB2Y/view?usp=drive_link)
 ---
 ### **Motivación del Proyecto**
 - **Optimización** de la gestión de recursos pesqueros.
