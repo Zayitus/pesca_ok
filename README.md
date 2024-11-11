@@ -199,11 +199,11 @@ Si tienes preguntas o sugerencias, no dudes en contactarme:
 - **LinkedIn**: www.linkedin.com/in/gaston-schvartz
 - # **Predicción de Desembarques Pesqueros en Tierra del Fuego**
 
-![Banner](ruta/a/tu/imagen/banner.jpg)
+![Banner]([ruta/a/tu/imagen/banner.jpg](https://raw.githubusercontent.com/Zayitus/pesca_ok/master/desembarques_pesca_tdf/reports/figures/banner.jpg))
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+    <img src="https://raw.githubusercontent.com/Zayitus/pesca_ok/master/desembarques_pesca_tdf/reports/figures/banner.jpg" alt="Banner" width="100%"/>
+</p>
 
 ## **Descripción del Proyecto**
 
@@ -221,6 +221,13 @@ Para agregar la imagen como banner, deberías:
 3. Ajustar el tamaño si es necesario usando HTML:
 ```html
 <p align="center">
-  <img src="reports/figures/banner.jpg" alt="Banner" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Zayitus/pesca_ok/master/desembarques_pesca_tdf/reports/figures/banner.jpg" alt="Banner" width="100%"/>
 </p>
 
+<h1 align="center">Predicción de Desembarques Pesqueros en Tierra del Fuego</h1>
+
+<p align="center">
+    <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
+        <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
+    </a>
+</p>
