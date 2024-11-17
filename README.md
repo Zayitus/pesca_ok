@@ -77,6 +77,7 @@ pip install -r requirements.txt
 - **Matplotlib y Seaborn** (para visualizaciones)
 - **XGBoost** (para modelado predictivo)
 - **Scikit-learn** (para entrenamiento y evaluación de modelos)
+- **Arch** (para modelado predictivo)
 
 ## **Uso del Proyecto**
 
@@ -125,6 +126,12 @@ python prediccion_desembarques/modeling/predict.py
 
 Los datos utilizados en este proyecto provienen del [Instituto Provincial de Análisis e Investigación, Estadística y Censos (IPIEC)](https://ipiec.tierradelfuego.gob.ar/) de Tierra del Fuego. Los datos cubren un periodo desde **1990 hasta 2024**, con información mensual sobre los desembarques pesqueros en los puertos de **Ushuaia y Almanza**.
 
+<p align="center">
+  <a href="https://ipiec.tierradelfuego.gob.ar/estadisticas-economicas-2/" target="_blank">
+    <img src="ipiec_logo.png" alt="IPIEC Logo" width="80"/>
+  </a>
+</p>
+
 ## **Resultados del Modelo**
 
 ### Modelo Original (XGBoost)
@@ -140,6 +147,19 @@ Los datos utilizados en este proyecto provienen del [Instituto Provincial de An�
   - Reducción del RMSE: 48.6%
   - Mejora del R²: 23.7%
 
+### Modelo Híbrido (XGBoost + EGARCH)
+- **R² Score**: 0.94
+- **Root Mean Squared Error (RMSE)**: 643.22
+- **Mean Absolute Error (MAE)**: 463.70
+- **Test Breusch-Pagan**: Confirma homocedasticidad (p-valor = 0.7029)
+
+### Características más Importantes
+1. diff_1: 28.65% (diferencias de primer orden)
+2. moving_avg_3: 18.70% (media móvil)
+3. moving_min_3: 13.70% (mínimo móvil)
+4. diff_12: 7.93% (diferencia estacional)
+5. moving_max_3: 7.20% (máximo móvil)
+   
 ### Características del Modelo Mejorado
 1. **Características Temporales**
    - Transformaciones cíclicas (mes_sin, mes_cos)
@@ -170,6 +190,8 @@ Los datos utilizados en este proyecto provienen del [Instituto Provincial de An�
    - moving_avg_3 (11.41%): Tendencia reciente
    - mes_12 (10.67%): Efecto diciembre
    - diff_12 (10%): Cambios anuales
+## **Resultados del Modelo**
+
 
 ## **Gráficos Importantes**
 
@@ -194,8 +216,7 @@ Si deseas contribuir al proyecto:
 
 ## **Licencia**
 
-Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
-
+Este proyecto está licenciado bajo la licencia MIT. Para más detalles, ver el archivo [LICENSE](https://raw.githubusercontent.com/Zayitus/pesca_ok/master/desembarques_pesca_tdf/LICENSE).
 ## **Contacto**
 
 Si tienes preguntas o sugerencias, no dudes en contactarme:
