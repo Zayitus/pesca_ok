@@ -216,8 +216,7 @@ Si deseas contribuir al proyecto:
 
 ## **Licencia**
 
-Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
-
+Este proyecto está licenciado bajo la licencia MIT. Para más detalles, ver el archivo [LICENSE](https://raw.githubusercontent.com/Zayitus/pesca_ok/master/desembarques_pesca_tdf/LICENSE).
 ## **Contacto**
 
 Si tienes preguntas o sugerencias, no dudes en contactarme:
