@@ -127,7 +127,9 @@ python prediccion_desembarques/modeling/predict.py
 Los datos utilizados en este proyecto provienen del [Instituto Provincial de Análisis e Investigación, Estadística y Censos (IPIEC)](https://ipiec.tierradelfuego.gob.ar/) de Tierra del Fuego. Los datos cubren un periodo desde **1990 hasta 2024**, con información mensual sobre los desembarques pesqueros en los puertos de **Ushuaia y Almanza**.
 
 <p align="center">
-  <img src="ipiec_logo.png" alt="IPIEC Logo" width="80"/>
+  <a href="https://ipiec.tierradelfuego.gob.ar/estadisticas-economicas-2/" target="_blank">
+    <img src="ipiec_logo.png" alt="IPIEC Logo" width="80"/>
+  </a>
 </p>
 
 ## **Resultados del Modelo**
