@@ -15,6 +15,8 @@ La provincia de **Tierra del Fuego**, ubicada en el extremo austral de Argentina
 ---
 ### [Link al Video](https://drive.google.com/file/d/1POBxGKvTlkDVmDS4u_RdNvqO6tzNtB2Y/view?usp=drive_link)
 ---
+### [Link al Notebook](https://github.com/Zayitus/pesca_ok/blob/master/desembarques_pesca_tdf/notebooks/aprendizaje_modelo_mejorado_hibrido_final%20(1).ipynb)
+---
 ### **Motivación del Proyecto**
 - **Optimización** de la gestión de recursos pesqueros.
 - **Identificación** de patrones estacionales y tendencias en los desembarques.
@@ -125,7 +127,7 @@ python prediccion_desembarques/modeling/predict.py
 ## **Datos**
 
 Los datos utilizados en este proyecto provienen del [Instituto Provincial de Análisis e Investigación, Estadística y Censos (IPIEC)](https://ipiec.tierradelfuego.gob.ar/) de Tierra del Fuego. Los datos cubren un periodo desde **1990 hasta 2024**, con información mensual sobre los desembarques pesqueros en los puertos de **Ushuaia y Almanza**.
-
+### [Link al Dataset](https://github.com/Zayitus/pesca_ok/blob/master/desembarques_pesca_tdf/data/raw/desembarques_raw.csv)
 <p align="center">
   <a href="https://ipiec.tierradelfuego.gob.ar/estadisticas-economicas-2/" target="_blank">
     <img src="ipiec_logo.png" alt="IPIEC Logo" width="80"/>
