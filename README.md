@@ -15,7 +15,7 @@ La provincia de **Tierra del Fuego**, ubicada en el extremo austral de Argentina
 ---
 ### [Link al Video](https://drive.google.com/file/d/1POBxGKvTlkDVmDS4u_RdNvqO6tzNtB2Y/view?usp=drive_link)
 ---
-### [Link al Notebook](https://github.com/Zayitus/pesca_ok/blob/master/desembarques_pesca_tdf/notebooks/aprendizaje_modelo_mejorado_hibrido_final%20(1).ipynb_link)
+### [Link al Notebook](https://github.com/Zayitus/pesca_ok/blob/master/desembarques_pesca_tdf/notebooks/aprendizaje_modelo_mejorado_hibrido_final%20(1).ipynb)
 ---
 ### **Motivación del Proyecto**
 - **Optimización** de la gestión de recursos pesqueros.
