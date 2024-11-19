@@ -135,7 +135,7 @@ Los datos utilizados en este proyecto provienen del [Instituto Provincial de An√
 </p>
 
 
-### [Link al Diccionario](https://github.com/Zayitus/pesca_ok/desembarques_pesca_tdf/docs/Diccionario.ipynb)
+### [Link al Diccionario](https://github.com/Zayitus/pesca_ok/blob/master/desembarques_pesca_tdf/docs/Diccionario.ipynb)
 ---
 ## **Resultados del Modelo**
 
